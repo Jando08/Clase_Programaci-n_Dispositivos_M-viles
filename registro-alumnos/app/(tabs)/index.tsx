@@ -62,6 +62,12 @@ export default function App() {
       color: '#fff',
       fontSize: 16,
       fontWeight: 'bold',
+    },
+    creditos: {
+      textAlign: 'center',
+      marginTop: 20,
+      fontSize: 14,
+      color: '#888',
     }
   });
 
@@ -100,6 +106,9 @@ export default function App() {
         <TouchableOpacity style={styles.boton} onPress={registrarAlumno}>
           <Text style={styles.textoBoton}>Guardar Datos</Text>
         </TouchableOpacity>
+        <Text style={styles.creditos}>
+          Trabajo Desarrollado por: "Alejandro Parra Leyva" - 24030778"
+        </Text>
 
       </ScrollView>
     </KeyboardAvoidingView>
